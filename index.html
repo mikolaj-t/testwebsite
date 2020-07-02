@@ -4,6 +4,7 @@
     <script type="text/javascript">
       $("#frame").ready(function(){ 
         var test = $("#frame").contents().find("#test");
+	test.remove();
         console.debug(test.html());
       });
     </script>
